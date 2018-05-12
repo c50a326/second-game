@@ -9,7 +9,7 @@ class TicTacToe extends Component {
   render() {
     return (
       <div>
-        {this.genBoard(this.props.size)}
+        {() => this.genBoard(this.props.size)}
       </div>
     );
   }
